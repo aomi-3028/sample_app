@@ -77,7 +77,6 @@ Rails.application.configure do
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
     :domain         => host,
     :authentication => :plain,
-    :tls            => true,
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
